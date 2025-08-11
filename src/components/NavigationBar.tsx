@@ -93,17 +93,12 @@ const NavigationBar: React.FC = () => {
     {
       name: 'OphoTech',
       description: 'Technology Solutions & Innovation',
-      url: 'https://stellar-kelpie-d06cc0.netlify.app/',
+      url: 'https://ophotech.com/',
     },
     {
       name: 'OphoDigital',
       description: 'Digital Transformation & Services',
-      url: 'https://radiant-sfogliatella-1938a8.netlify.app',
-    },
-    {
-      name: 'OphoSecure',
-      description: 'Cybersecurity & Protection Solutions',
-      url: 'https://elegant-biscotti-53e2a2.netlify.app',
+      url: 'https://ophodigital.com/',
     }
   ];
 
@@ -113,7 +108,7 @@ const NavigationBar: React.FC = () => {
 
   const handleWebsiteNavigation = (url: string) => {
     if (url !== '#') {
-      window.open(url, '_blank');
+      window.location.href = url;
     }
     setIsLogoDropdownOpen(false);
   };
