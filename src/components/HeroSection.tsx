@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
                   </h1>
                   
                   <p className="text-lg sm:text-xl lg:text-2xl text-white/90 leading-relaxed">
-                    We help you research, strategize, and scale—unlocking the full potential of your business.
+                    We help you research, strategize, and scale unlocking the full potential of your business.
                   </p>
                 </div>
               </div>
